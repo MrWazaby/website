@@ -1,0 +1,30 @@
+{
+  "name": "site-perso",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "scripts": {
+    "dev": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrWazaby/site-perso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrWazaby/site-perso/issues"
+  },
+  "homepage": "https://github.com/MrWazaby/site-perso#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "jquery": "^3.7.1",
+    "jquery-sticky": "^1.0.4",
+    "jquery.mmenu": "^7.3.3",
+    "skeleton-css": "^2.0.4"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "parcel": "^2.13.3"
+  }
+}
