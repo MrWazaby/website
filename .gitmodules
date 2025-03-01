@@ -1,0 +1,3 @@
+[submodule "dist"]
+	path = dist
+	url = git@codeberg.org:wazaby-build/website-build.git

@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrWazaby/site-perso.git"
+    "url": "git+https://codeberg.org/wazaby/website.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MrWazaby/site-perso/issues"
+    "url": "https://codeberg.org/wazaby/website/issues"
   },
-  "homepage": "https://github.com/MrWazaby/site-perso#readme",
+  "homepage": "https://alexandre-martin.fr",
   "dependencies": {
     "animate.css": "^4.1.1",
     "jquery": "^3.7.1",
