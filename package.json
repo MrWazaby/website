@@ -10,19 +10,12 @@
     "type": "git",
     "url": "git+https://codeberg.org/wazaby/website.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alexandre Martin",
+  "license": "MIT",
   "bugs": {
     "url": "https://codeberg.org/wazaby/website/issues"
   },
   "homepage": "https://alexandre-martin.fr",
-  "dependencies": {
-    "animate.css": "^4.1.1",
-    "jquery": "^3.7.1",
-    "jquery-sticky": "^1.0.4",
-    "jquery.mmenu": "^7.3.3",
-    "skeleton-css": "^2.0.4"
-  },
   "devDependencies": {
     "cssnano": "^7.0.6",
     "parcel": "^2.13.3"
