@@ -81,6 +81,7 @@
       <nav class="nav" id="nav" aria-label="Navigation principale">
         <ul class="nav__list">
           <li><a href="#about">À propos</a></li>
+          <li><a href="#seurch">Projet</a></li>
           <li><a href="#experiences">Expériences</a></li>
           <li><a href="#education">Études</a></li>
           <li><a href="#skills">Stack</a></li>
@@ -151,9 +152,85 @@
       </div>
     </section>
 
+    <section class="section section--feature" id="seurch" aria-labelledby="seurch-title">
+      <div class="shell">
+        <p class="section__kicker">02 — Projet</p>
+        <h2 class="section__title" id="seurch-title">Mon projet principal</h2>
+
+        <article class="project" data-reveal>
+          <header class="project__head">
+            <img class="project__logo" src="images/seurch.svg" alt="Logo de Seurch" width="230" height="200"
+              loading="lazy" decoding="async">
+            <div class="project__ident">
+              <div class="project__title">
+                <h3 class="project__name">Seurch</h3>
+                <p class="project__status">Alpha</p>
+              </div>
+              <p class="project__tagline">Métamoteur de recherche libre, pensé pour la vie privée.</p>
+            </div>
+          </header>
+
+          <div class="project__body">
+            <p>
+              Seurch interroge plusieurs moteurs indépendants — <a href="https://brave.com/search/api/"
+                target="_blank" rel="noopener">Brave</a>, <a href="https://www.mojeek.com/" target="_blank"
+                rel="noopener">Mojeek</a>, <a href="https://about.marginalia-search.com/" target="_blank"
+                rel="noopener">Marginalia</a> et <a href="https://staan.ai/" target="_blank" rel="noopener">Staan</a> —
+              puis fusionne leurs classements avec un algorithme de <em>Reciprocal Rank Fusion</em>&nbsp;: ce sur quoi
+              plusieurs moteurs s'accordent remonte en tête, et les doublons disparaissent.
+            </p>
+            <p>
+              Au-delà du web, il couvre les images, l'actualité, les vidéos, les cartes et la traduction, avec des
+              réponses instantanées et un panneau de connaissances. Aucun traçage, aucun profilage&nbsp;: les
+              préférences tiennent dans un cookie, exportable et réimportable. Le service tourne en alpha, sur
+              invitation, mais le code est libre et auto-hébergeable.
+            </p>
+          </div>
+
+          <ul class="project__features">
+            <li>Quatre moteurs web fusionnés et dédoublonnés</li>
+            <li>Images, actualités et vidéos</li>
+            <li>Cartes via OpenStreetMap</li>
+            <li>Traduction via LibreTranslate auto-hébergé</li>
+            <li>Réponses instantanées et panneau de connaissances</li>
+            <li>API JSON publique et page de statut des fournisseurs</li>
+            <li>Réglages synchronisés, bangs et sites bloqués</li>
+            <li>Interface traduite en sept langues</li>
+          </ul>
+
+          <ul class="chips">
+            <li>Django 6</li>
+            <li>Python 3.13</li>
+            <li>PostgreSQL</li>
+            <li>Tailwind CSS</li>
+            <li>Docker</li>
+            <li>AGPL-3.0</li>
+          </ul>
+
+          <div class="project__links">
+            <a class="project__link project__link--primary" href="https://seurch.eu" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle class="icon--stroke" cx="12" cy="12" r="9" />
+                <path class="icon--stroke" d="M3 12h18" />
+                <path class="icon--stroke" d="M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3Z" />
+              </svg>
+              <span>seurch.eu</span>
+            </a>
+            <a class="project__link" href="https://github.com/seurch-eu/seurch" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .3a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58l-.01-2.04c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.41-1.31.75-1.61-2.66-.3-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.53.11-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.65.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.6-2.81 5.62-5.48 5.92.43.36.81 1.1.81 2.22l-.01 3.29c0 .32.21.69.82.57A12 12 0 0 0 12 .3z" />
+              </svg>
+              <span>Code source</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="section section--alt" id="experiences" aria-labelledby="experiences-title">
       <div class="shell">
-        <p class="section__kicker">02 — Parcours</p>
+        <p class="section__kicker">03 — Parcours</p>
         <h2 class="section__title" id="experiences-title">Mes expériences</h2>
 
         <ol class="timeline">
@@ -229,7 +306,7 @@
 
     <section class="section" id="education" aria-labelledby="education-title">
       <div class="shell">
-        <p class="section__kicker">03 — Formation</p>
+        <p class="section__kicker">04 — Formation</p>
         <h2 class="section__title" id="education-title">Mes études</h2>
 
         <div class="cards">
@@ -286,7 +363,7 @@
 
     <section class="section section--alt" id="skills" aria-labelledby="skills-title">
       <div class="shell">
-        <p class="section__kicker">04 — Outils</p>
+        <p class="section__kicker">05 — Outils</p>
         <h2 class="section__title" id="skills-title">Ma stack technique</h2>
 
         <h3 class="group__title">Développement</h3>
@@ -442,7 +519,7 @@
 
     <section class="section" id="contact" aria-labelledby="contact-title">
       <div class="shell">
-        <p class="section__kicker">05 — Discutons</p>
+        <p class="section__kicker">06 — Discutons</p>
         <h2 class="section__title" id="contact-title">Me contacter</h2>
 
         <p class="contact__lead">
