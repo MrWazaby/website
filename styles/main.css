@@ -664,32 +664,6 @@ code {
   max-width: 68ch;
 }
 
-.project__features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
-  gap: 0.6rem 1.5rem;
-  margin-top: 1.75rem;
-}
-
-.project__features li {
-  position: relative;
-  padding-left: 1.6rem;
-  font-size: 0.92rem;
-}
-
-/* Tick drawn from two borders on a rotated box. */
-.project__features li::before {
-  content: "";
-  position: absolute;
-  top: 0.35em;
-  left: 0.3rem;
-  width: 0.35rem;
-  height: 0.65rem;
-  border: solid var(--accent);
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-}
-
 .project__links {
   display: flex;
   flex-wrap: wrap;
